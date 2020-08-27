@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MercMod - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP7ca6.tmp" with contents
+[
+/nologo /Gr /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MERCMOD_EXPORTS" /Fp"Debug/MercMod.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\MercMod\MercMod.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP7ca6.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:no /pdb:"Debug/MercMod.pdb" /debug /machine:I386 /out:"MercMod.dll" /implib:"Debug/MercMod.lib" /pdbtype:sept /libpath:"..\..\Lib\\"  ".\Debug\MercMod.obj" "
+<h3>Output Window</h3>
+Compiling...
+MercMod.cpp
+Linking...
+   Creating library Debug/MercMod.lib and object Debug/MercMod.exp
+
+
+
+<h3>Results</h3>
+MercMod.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

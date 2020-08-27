@@ -1,0 +1,30 @@
+Extended Levels Plugin V1.0 - for the D2Mod System
+Author: AFJ666
+converted to theD2Mod System by SVR 2004
+
+
+This plugin allows you add up to 1024 levels to D2 instead of the normal 100.
+
+
+Thanks to mrelfire for extensive testing to work out some of my bugs.
+And of course to AFJ for makeing this great plugin to begin with.
+
+THIS PLUGIN REQUIRES THE D2MOD SYSTEM.
+
+To Install:
+Extract ExtLvl.dll into your mod folder.
+
+Add the dll name into your mod ini ...
+
+ExtLvl = extlvl.dll
+
+There are no additional lines to add to your mod ini.
+
+
+Visit The Phrozen Keep to find tutorials and info on adding levels to D2.
+
+www.d2mods.com
+
+if you have questions or comments you can email me at
+
+svr@d2mods.com

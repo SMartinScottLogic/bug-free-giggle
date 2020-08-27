@@ -1,0 +1,46 @@
+*Name	type	weight	eol
+Amulet	amul	40	0
+Armor	tors	500	0
+Axe	axe		0
+Belt	belt	26	0
+Book	book	66	0
+Boots	boot	66	0
+Bow	bow	250	0
+Bow Quiver	bowq	90	0
+Charm	char	26	0
+Chipped Gem	gem0	0	0
+Circlet	circ	150	0
+Club	club		0
+Crossbow	xbow	376	0
+Crossbow Quiver	xboq	90	0
+Elixir	elix	40	0
+Flawed Gem	gem1	16	0
+Flawless Gem	gem3	40	0
+Gloves	glov	26	0
+Hammer	hamm		0
+Helm	helm	76	0
+Javelin	jave		0
+Jewel	jewl	40	0
+Key	key	40	0
+Knife	knif		0
+Large Charm	lcha	50	0
+Mace	mace		0
+Medium Charm	mcha	40	0
+Orb	orb	100	0
+Perfect Gem	gem4	50	0
+Player Body Part	play	16	0
+Polearm	pole		0
+Potion	poti	26	0
+Ring	ring	40	0
+Rune	rune	26	0
+Scepter	scep	150	0
+Scroll	scro	16	0
+Shield	shie	250	0
+Small Charm	scha	26	0
+Spear	spea		0
+Staff	staf	90	0
+Standard Gem	gem2	26	0
+Sword	swor		0
+Throwing Axe	taxe		0
+Throwing Knife	tkni		0
+Wand	wand	90	0

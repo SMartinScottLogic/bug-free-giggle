@@ -1,0 +1,70 @@
+Utility Plugin V1.0 - for the D2Mod System
+Author: SVR 2004
+
+This plugin allows you to set various common values in D2 that normally require code edits.
+
+Most (or all) of these setting were collected by ChaosEnergy from various thread on Phrozen Keep.
+
+Thanks to ChaosEnergy and the coders that discovered these to begin with.
+
+THIS PLUGIN REQUIRES THE D2MOD SYSTEM.
+
+To Install:
+Extract Utility.dll into your mod folder.
+
+Add these lines into you mod ini file. You may change the setting to suit your mod.
+
+;------------------------------------------------
+
+[Utility]
+
+; Utility.ini
+; Ini file for Utility.dll
+;
+;
+; Setting = Value
+; 
+
+; number of skillpoints on level, normal is 1
+SkillPoints=1
+
+; enable runewords for lo,nrm,hi,mag,set,rar,uni,crf,tmp
+; normal is 1,1,1,0,0,0,0,0,0
+EnableRuneWords = 1,1,1,0,0,0,0,0,0
+
+; minimum "/players X number, normal is 1
+PlayersXmin = 1
+
+; maximum "/players X number, normal is 8
+PlayersXmax = 8
+
+; levels for the -actX switch, normal is 1,15,20,26,32
+ActX = 1,15,20,26,32
+
+; Use GambleCost entry for items, normal is 0 (FALSE)
+UseGambleCost = 0
+
+; set max items in gamble screen, normal is 14
+MaxGambleItems = 14
+
+; allow magic tabs at vendors, normal is 0 (FALSE)
+UseMagicTabs = 0
+
+; Max gold in stash (multiplier), normal is 10000
+StashGold = 10000
+
+; Max gold in inventory (multiplier), normal is 10000
+InvGold = 10000
+
+; 0 = no cap on exp granted by Ancients, normal is 1
+AncientsCap = 1
+
+; monster difficulty, 25 is normal
+MonsterDiff = 25
+
+;Quest reward skillpoints for Book of skills,Den of evil, Izual
+; normal is 1,1,2
+QuestSkills = 1,1,2
+
+; Make Telekenisis pick up all items, normal is 0 (FALSE)
+tkTakesAll = 0

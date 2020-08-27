@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CustomTBL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP4192.tmp" with contents
+[
+/nologo /Gr /MDd /W3 /Gm /GX /Zi /Od /Gf /Gy /I "..\..\include\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CUSTOMTBL_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\CustomTBL\CustomTBL.cpp"
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\CustomTBL\StrTable.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP4192.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /pdb:none /debug /machine:I386 /nodefaultlib:"MSVCRT.LIB" /out:"CustomTbl.dll" /implib:"Debug/CustomTbl.lib" /libpath:"..\..\lib\\"  ".\Debug\CustomTBL.obj" ".\Debug\StrTable.obj" "
+<h3>Output Window</h3>
+Compiling...
+CustomTBL.cpp
+StrTable.cpp
+Generating Code...
+Linking...
+   Creating library Debug/CustomTbl.lib and object Debug/CustomTbl.exp
+
+
+
+<h3>Results</h3>
+CustomTbl.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

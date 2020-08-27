@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ExtLvl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP66c6.tmp" with contents
+[
+/nologo /Gr /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "EXTLVL_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\ExtLvl\ExtLvl.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP66c6.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:yes /pdb:"Debug/ExtLvl.pdb" /debug /machine:I386 /out:"ExtLvl.dll" /implib:"Debug/ExtLvl.lib" /pdbtype:sept /libpath:"..\..\lib"  ".\Debug\ExtLvl.obj" "
+<h3>Output Window</h3>
+Compiling...
+ExtLvl.cpp
+Linking...
+   Creating library Debug/ExtLvl.lib and object Debug/ExtLvl.exp
+
+
+
+<h3>Results</h3>
+ExtLvl.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

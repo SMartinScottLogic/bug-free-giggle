@@ -1,0 +1,270 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BooksOfLore - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSPf6ab.tmp" with contents
+[
+/nologo /Gr /MD /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "BOOKSOFLORE_EXPORTS" /Fp"Release/BooksOfLore.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\BooksOfLore\BOL.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSPf6ab.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:no /pdb:"Release/BOL.pdb" /machine:I386 /out:"Release\BOL.dll" /implib:"Release/BOL.lib" /libpath:"..\..\lib"  ".\Release\BOL.obj" "
+<h3>Output Window</h3>
+Compiling...
+BOL.cpp
+Linking...
+   Creating library Release/BOL.lib and object Release/BOL.exp
+
+
+
+<h3>Results</h3>
+BOL.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BooksOfLore - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSPfa1c.tmp" with contents
+[
+/nologo /Gr /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "BOOKSOFLORE_EXPORTS" /Fp"Debug/BooksOfLore.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\BooksOfLore\BOL.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSPfa1c.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:yes /pdb:"Debug/BOL.pdb" /debug /machine:I386 /out:"Debug\BOL.dll" /implib:"Debug/BOL.lib" /pdbtype:sept /libpath:"..\..\lib"  ".\Debug\BOL.obj" "
+<h3>Output Window</h3>
+Compiling...
+BOL.cpp
+Linking...
+   Creating library Debug/BOL.lib and object Debug/BOL.exp
+
+
+
+<h3>Results</h3>
+BOL.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: CustomTBL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSPfdf1.tmp" with contents
+[
+/nologo /Gr /MD /W3 /GX /O2 /I "..\..\include\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CUSTOMTBL_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\CustomTBL\CustomTBL.cpp"
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\CustomTBL\StrTable.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSPfdf1.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib shlwapi.lib /nologo /dll /pdb:none /machine:I386 /out:"Release\CustomTbl.dll" /implib:"Release/CustomTbl.lib" /libpath:"..\..\lib\\"  ".\Release\CustomTBL.obj" ".\Release\StrTable.obj" "
+<h3>Output Window</h3>
+Compiling...
+CustomTBL.cpp
+StrTable.cpp
+Generating Code...
+Linking...
+   Creating library Release/CustomTbl.lib and object Release/CustomTbl.exp
+
+
+
+<h3>Results</h3>
+CustomTbl.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: CustomTBL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP28e.tmp" with contents
+[
+/nologo /Gr /MDd /W3 /Gm /GX /Zi /Od /Gf /Gy /I "..\..\include\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CUSTOMTBL_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\CustomTBL\CustomTBL.cpp"
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\CustomTBL\StrTable.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP28e.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /pdb:none /debug /machine:I386 /nodefaultlib:"MSVCRT.LIB" /out:"Debug\CustomTbl.dll" /implib:"Debug/CustomTbl.lib" /libpath:"..\..\lib\\"  ".\Debug\CustomTBL.obj" ".\Debug\StrTable.obj" "
+<h3>Output Window</h3>
+Compiling...
+CustomTBL.cpp
+StrTable.cpp
+Generating Code...
+Linking...
+   Creating library Debug/CustomTbl.lib and object Debug/CustomTbl.exp
+
+
+
+<h3>Results</h3>
+CustomTbl.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ExtLvl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP852.tmp" with contents
+[
+/nologo /Gr /MD /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "EXTLVL_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\ExtLvl\ExtLvl.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP852.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:no /pdb:"Release/ExtLvl.pdb" /machine:I386 /out:"Release\ExtLvl.dll" /implib:"Release/ExtLvl.lib" /libpath:"..\..\lib"  ".\Release\ExtLvl.obj" "
+<h3>Output Window</h3>
+Compiling...
+ExtLvl.cpp
+Linking...
+   Creating library Release/ExtLvl.lib and object Release/ExtLvl.exp
+
+
+
+<h3>Results</h3>
+ExtLvl.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ExtLvl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSPb61.tmp" with contents
+[
+/nologo /Gr /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "EXTLVL_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\ExtLvl\ExtLvl.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSPb61.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:yes /pdb:"Debug/ExtLvl.pdb" /debug /machine:I386 /out:"Debug\ExtLvl.dll" /implib:"Debug/ExtLvl.lib" /pdbtype:sept /libpath:"..\..\lib"  ".\Debug\ExtLvl.obj" "
+<h3>Output Window</h3>
+Compiling...
+ExtLvl.cpp
+Linking...
+   Creating library Debug/ExtLvl.lib and object Debug/ExtLvl.exp
+
+
+
+<h3>Results</h3>
+ExtLvl.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: MercMod - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSPf36.tmp" with contents
+[
+/nologo /Gr /MD /W3 /GX /O2 /I "..\..\include\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MERCMOD_EXPORTS" /Fp"Release/MercMod.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\MercMod\MercMod.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSPf36.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:no /pdb:"Release/MercMod.pdb" /machine:I386 /out:"Release\MercMod.dll" /implib:"Release/MercMod.lib" /libpath:"..\..\Lib\\"  ".\Release\MercMod.obj" "
+<h3>Output Window</h3>
+Compiling...
+MercMod.cpp
+Linking...
+   Creating library Release/MercMod.lib and object Release/MercMod.exp
+
+
+
+<h3>Results</h3>
+MercMod.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: MercMod - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP1258.tmp" with contents
+[
+/nologo /Gr /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MERCMOD_EXPORTS" /Fp"Debug/MercMod.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\MercMod\MercMod.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP1258.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:no /pdb:"Debug/MercMod.pdb" /debug /machine:I386 /out:"Debug\MercMod.dll" /implib:"Debug/MercMod.lib" /pdbtype:sept /libpath:"..\..\Lib\\"  ".\Debug\MercMod.obj" "
+<h3>Output Window</h3>
+Compiling...
+MercMod.cpp
+Linking...
+   Creating library Debug/MercMod.lib and object Debug/MercMod.exp
+
+
+
+<h3>Results</h3>
+MercMod.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: StatFix - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP164c.tmp" with contents
+[
+/nologo /Gr /MD /W3 /GX /O1 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "STATFIX_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\StatFix\StatFix.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP164c.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:no /pdb:"Release/StatFix.pdb" /machine:I386 /out:"Release\StatFix.dll" /implib:"Release/StatFix.lib" /libpath:"..\..\lib"  ".\Release\StatFix.obj" "
+<h3>Output Window</h3>
+Compiling...
+StatFix.cpp
+Linking...
+   Creating library Release/StatFix.lib and object Release/StatFix.exp
+
+
+
+<h3>Results</h3>
+StatFix.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: StatFix - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP197b.tmp" with contents
+[
+/nologo /MDd /W3 /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "STATFIX_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\StatFix\StatFix.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP197b.tmp" 
+Creating temporary file "C:\users\simon\Temp\RSP197c.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:yes /pdb:"Debug/StatFix.pdb" /map:"Debug/StatFix.map" /debug /machine:I386 /out:"Debug\StatFix.dll" /implib:"Debug/StatFix.lib" /pdbtype:sept /libpath:"..\..\lib" 
+".\Debug\StatFix.obj"
+]
+Creating command line "link.exe @C:\users\simon\Temp\RSP197c.tmp"
+<h3>Output Window</h3>
+Compiling...
+StatFix.cpp
+Linking...
+   Creating library Debug/StatFix.lib and object Debug/StatFix.exp
+
+
+
+<h3>Results</h3>
+StatFix.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Utility - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP1c8d.tmp" with contents
+[
+/nologo /Gr /MD /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "UTILITY_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\Utility\Utility.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP1c8d.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:no /pdb:"Release/Utility.pdb" /machine:I386 /out:"Release\Utility.dll" /implib:"Release/Utility.lib" /libpath:"..\..\lib"  ".\Release\Utility.obj" "
+<h3>Output Window</h3>
+Compiling...
+Utility.cpp
+Linking...
+   Creating library Release/Utility.lib and object Release/Utility.exp
+
+
+
+<h3>Results</h3>
+Utility.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Utility - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\users\simon\Temp\RSP1fbe.tmp" with contents
+[
+/nologo /Gr /MDd /W3 /Gm /GX /Zi /Od /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "UTILITY_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\Utility\Utility.cpp"
+]
+Creating command line "cl.exe @C:\users\simon\Temp\RSP1fbe.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:yes /pdb:"Debug/Utility.pdb" /debug /machine:I386 /out:"Debug\Utility.dll" /implib:"Debug/Utility.lib" /pdbtype:sept /libpath:"..\..\lib"  ".\Debug\Utility.obj" "
+<h3>Output Window</h3>
+Compiling...
+Utility.cpp
+Linking...
+   Creating library Debug/Utility.lib and object Debug/Utility.exp
+
+
+
+<h3>Results</h3>
+Utility.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
