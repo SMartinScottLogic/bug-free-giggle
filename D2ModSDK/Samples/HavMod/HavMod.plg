@@ -6,23 +6,29 @@
 --------------------Configuration: HavMod - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\users\simon\Temp\RSP5d47.tmp" with contents
+Creating temporary file "C:\users\simon\Temp\RSPef0b.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /I "../../include/" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HAVMOD_EXPORTS" /Fp"Release/HavMod.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\Program Files (x86)\Diablo II\D2ModSDK\Samples\HavMod\Weight.cpp"
+"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\HavMod.cpp"
+"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\Inventory.cpp"
+"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\NewTxt.cpp"
+"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\Weight.cpp"
 ]
-Creating command line "cl.exe @C:\users\simon\Temp\RSP5d47.tmp" 
-Creating temporary file "C:\users\simon\Temp\RSP5d48.tmp" with contents
+Creating command line "cl.exe @C:\users\simon\Temp\RSPef0b.tmp" 
+Creating temporary file "C:\users\simon\Temp\RSPef0c.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/HavMod.pdb" /machine:I386 /out:"Release/HavMod.dll" /implib:"Release/HavMod.lib" /libpath:"../../lib/" /opt:nowin98 
 ".\Release\HavMod.obj"
 ".\Release\Inventory.obj"
-".\Release\Weight.obj"
 ".\Release\NewTxt.obj"
+".\Release\Weight.obj"
 ]
-Creating command line "link.exe @C:\users\simon\Temp\RSP5d48.tmp"
+Creating command line "link.exe @C:\users\simon\Temp\RSPef0c.tmp"
 <h3>Output Window</h3>
 Compiling...
+HavMod.cpp
+Inventory.cpp
+NewTxt.cpp
 Weight.cpp
 Linking...
    Creating library Release/HavMod.lib and object Release/HavMod.exp
