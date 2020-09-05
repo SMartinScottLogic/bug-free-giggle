@@ -39,7 +39,6 @@ typedef struct
 
 FUNC(LPUNIT,PASCAL, D2GetFirstInventoryItem, (Inventory*), (DWORD)(&D2Common_10277));
 FUNC(LPUNIT,PASCAL, D2GetNextItem, (LPUNIT), (DWORD)(&D2Common_10304));
-FUNC(BYTE, STDCALL, D2GetItemPage, (LPUNIT),(DWORD)&D2Common_10719);
 FUNC(DWORD, PASCAL, DATATABLES_GetLinkIndex, (D2TXTLinkageStrc *, LPSTR, BOOL), (DWORD)&Fog_10217);
 
 DWORD numWeights=0;

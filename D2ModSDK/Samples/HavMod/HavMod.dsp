@@ -97,11 +97,19 @@ SOURCE=.\HavMod.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=.\Inscribe.cpp
+# End Source File
+# Begin Source File
+
 SOURCE=.\Inventory.cpp
 # End Source File
 # Begin Source File
 
 SOURCE=.\NewTxt.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\UnitUtils.cpp
 # End Source File
 # Begin Source File
 

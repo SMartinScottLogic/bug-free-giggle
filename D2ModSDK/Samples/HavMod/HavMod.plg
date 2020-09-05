@@ -6,37 +6,34 @@
 --------------------Configuration: HavMod - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\users\simon\Temp\RSPef0b.tmp" with contents
+Creating temporary file "C:\users\simon\Temp\RSP1d80.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /I "../../include/" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HAVMOD_EXPORTS" /Fp"Release/HavMod.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\HavMod.cpp"
-"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\Inventory.cpp"
-"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\NewTxt.cpp"
-"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\Weight.cpp"
+"C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\Inscribe.cpp"
 ]
-Creating command line "cl.exe @C:\users\simon\Temp\RSPef0b.tmp" 
-Creating temporary file "C:\users\simon\Temp\RSPef0c.tmp" with contents
+Creating command line "cl.exe @C:\users\simon\Temp\RSP1d80.tmp" 
+Creating temporary file "C:\users\simon\Temp\RSP1d81.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/HavMod.pdb" /machine:I386 /out:"Release/HavMod.dll" /implib:"Release/HavMod.lib" /libpath:"../../lib/" /opt:nowin98 
 ".\Release\HavMod.obj"
 ".\Release\Inventory.obj"
 ".\Release\NewTxt.obj"
 ".\Release\Weight.obj"
+".\Release\Inscribe.obj"
+".\Release\UnitUtils.obj"
 ]
-Creating command line "link.exe @C:\users\simon\Temp\RSPef0c.tmp"
+Creating command line "link.exe @C:\users\simon\Temp\RSP1d81.tmp"
 <h3>Output Window</h3>
 Compiling...
-HavMod.cpp
-Inventory.cpp
-NewTxt.cpp
-Weight.cpp
+Inscribe.cpp
+C:\Program Files (x86)\Diablo II\bug-free-giggle\D2ModSDK\Samples\HavMod\Inscribe.cpp(20) : warning C4172: returning address of local variable or temporary
 Linking...
    Creating library Release/HavMod.lib and object Release/HavMod.exp
 
 
 
 <h3>Results</h3>
-HavMod.dll - 0 error(s), 0 warning(s)
+HavMod.dll - 0 error(s), 1 warning(s)
 </pre>
 </body>
 </html>

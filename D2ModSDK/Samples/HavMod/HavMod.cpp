@@ -92,8 +92,9 @@ DWORD __cdecl CustomLabel(char * s, size_t n, const char * format, ... ) {
 // {dwOffset, dwValue, FixupType =FT_NON,FT_REL or FT_FIX}
 
 
-DECLARE_COMMON_MODS(5)
+DECLARE_COMMON_MODS(6)
 // D2Common edits here
+{0xA3984,(DWORD)Inscribe,FT_NON},
 //NewTXT
 {0x1048E,0x90900EEB,FT_NON},
 {0x1049F,(DWORD)MakeSpaceUnloading,FT_REL},
@@ -108,9 +109,12 @@ DECLARE_CLIENT_MODS(0)
 
 END_MODS
 
-DECLARE_GAME_MODS(4)
+DECLARE_GAME_MODS(5)
 // D2Game edits here
+// Imbue
 {0x09A296, nImbue, FT_NON},
+// Inscribe
+{0x1f1c5, (DWORD)getUnitName, FT_REL},
 // Weight
 {0x593e3,0x9090e853,FT_NON},
 {0x593e6,0x90909090,FT_NON},
